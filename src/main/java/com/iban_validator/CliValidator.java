@@ -22,6 +22,7 @@ public class CliValidator {
         if (args[0].equals("-i")) {
             if (!args[1].isEmpty()) {
                 app.validateFromFile(args[1]);
+                return;
             }
         }
 
